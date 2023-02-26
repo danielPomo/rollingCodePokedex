@@ -1,3 +1,8 @@
+:root {
+    /* Bold typography*/
+    --navbar-weight: 900;
+}
+
 html {
     box-sizing: border-box;
 }
@@ -14,4 +19,12 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar-brand {
+    width: 40px;
+}
+
+.navbar {
+    font-weight: var(--navbar-weight);
+    background-image: linear-gradient(to right, rgb(204, 74, 74), rgba(231, 165, 165, 0.418)), url(../img/navbar/background_img.png)
+}
 
