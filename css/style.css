@@ -9,3 +9,7 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
