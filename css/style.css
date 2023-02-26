@@ -3,7 +3,7 @@
     --navbar-weight: 900;
     --footer-weight: 600;
     /* Size */
-    --xs-size: 14px;
+    --xs-size: 10px;
     --sm-size: 16px;
     --md-size: 20px;
     --lg-size: 24px;
@@ -122,11 +122,10 @@ main {
 
 .pokedex__fact {
     padding: 5px;
-    border-right: 1px dolid rgba(255,255,255,.1);
 }
 
 .pokedex__key {
-    font-size: var(--xs-size) ;
+    font-size: var(--sm-size) ;
 }
 
 .pokedex__number {
@@ -138,6 +137,7 @@ main {
 
 .pokedex__badge {
     border: 1px solid #eee;
+    font-size: var(--xs-size);
 }
 
 .pokedex__badge--grass {
