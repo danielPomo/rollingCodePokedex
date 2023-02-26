@@ -33,3 +33,33 @@ body {
 .active-link {
     text-shadow: 0 0 15px #000, 0 0 10px #000, 0 0 5px #000;
 }
+
+/* Carousel styles */
+
+.carousel {
+    height: 60vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-image: linear-gradient(rgba(0,0,0,.8), transparent, rgba(0,0,0,.8));
+}
+
+.carousel-img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
