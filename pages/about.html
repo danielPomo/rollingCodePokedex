@@ -23,10 +23,48 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center justify-content-center" href="../index.html">
+                <img class="img-fluid" src="../img/navbar/navbar_logo.png" alt="image of a pokeball">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-lg-0 d-flex align-items-center">
+              <li class="nav-item">
+                <a class="nav-link text-light" aria-current="page" href="../index.html">Pokédex</a>
+              </li>
+                <a class="nav-link text-light" href="./error404.html">TCG</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="./error404.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Apps
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-dark" href="./error404.html">Pokémon Go</a></li>
+                  <li><a class="dropdown-item text-dark" href="./error404.html">TV Pokémon</a></li>
+                  <li><a class="dropdown-item text-dark" href="./error404.html">Pokémon Quest</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-bg-dark" href="./about.html">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit"><i class='bx bx-search-alt-2'></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main></main>
     <footer></footer>
     <script
