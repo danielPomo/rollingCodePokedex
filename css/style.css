@@ -1,6 +1,7 @@
 :root {
     /* Bold typography*/
     --navbar-weight: 900;
+    --footer-weight: 600;
     /* Colors */
 
 }
@@ -34,7 +35,7 @@ main {
 
 .navbar {
     font-weight: var(--navbar-weight);
-    background-image: linear-gradient(to right, rgb(204, 74, 74), rgba(231, 165, 165, 0.418)), url(../img/navbar/background_img.png)
+    background-image: linear-gradient(to right, rgb(204, 74, 74), rgba(231, 165, 165, 0.418)), url(../img/navbar/background_img.png);
 }
 
 .active-link {
@@ -70,3 +71,24 @@ main {
     object-position: center;
     height: 100%;
 }
+
+/* Footer */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-image: linear-gradient(to right, rgb(94, 30, 30), rgba(190, 29, 29, 0.418)), url(../img/navbar/background_img.png);
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__legend {
+    font-weight: var(--footer-weight);
+}
+
