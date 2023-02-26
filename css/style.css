@@ -1,8 +1,13 @@
 :root {
-    /* Bold typography*/
+    /* Bold */
     --navbar-weight: 900;
     --footer-weight: 600;
-    /* Colors */
+    /* Size */
+    --xs-size: 14px;
+    --sm-size: 16px;
+    --md-size: 20px;
+    --lg-size: 24px;
+    --xl-size: 30px;
 
 }
 
@@ -92,3 +97,61 @@ main {
     font-weight: var(--footer-weight);
 }
 
+/* Pokedex grid */
+
+.pokedex {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 10px;
+}
+
+.pokedex__card {
+    border-radius: 7px;
+    box-shadow: 0 1.5rem 4.5rem #000;
+    position: relative;
+}
+
+.pokedex__brief {
+    padding: 10px;
+}
+
+.pokedex__card--sumup {
+    background-image: linear-gradient(to right, #78C850, transparent);
+}
+
+.pokedex__fact {
+    padding: 5px;
+    border-right: 1px dolid rgba(255,255,255,.1);
+}
+
+.pokedex__key {
+    font-size: var(--xs-size) ;
+}
+
+.pokedex__number {
+    font-size: var(--md-size);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.pokedex__badge {
+    border: 1px solid #eee;
+}
+
+.pokedex__badge--grass {
+    background-color: 	#78c850;
+}
+
+.pokedex__badge--poison {
+    background-color: #b058a0;
+}
+
+.pokedex__badge--flying {
+    background-color: 	#98a8f0;
+}
+
+.pokedex__badge--fire {
+    background-color: #f05030;
+}
