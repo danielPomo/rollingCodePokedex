@@ -1,6 +1,8 @@
 :root {
     /* Bold typography*/
     --navbar-weight: 900;
+    /* Colors */
+
 }
 
 html {
@@ -28,3 +30,6 @@ body {
     background-image: linear-gradient(to right, rgb(204, 74, 74), rgba(231, 165, 165, 0.418)), url(../img/navbar/background_img.png)
 }
 
+.active-link {
+    text-shadow: 0 0 15px #000, 0 0 10px #000, 0 0 5px #000;
+}
