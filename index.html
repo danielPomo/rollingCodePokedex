@@ -23,260 +23,545 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
       rel="stylesheet"
     />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid">
-                <a class="navbar-brand d-flex align-items-center justify-content-center" href="./index.html">
-                    <img class="img-fluid" src="./img/navbar/navbar_logo.png" alt="image of a pokeball">
+      <nav class="navbar navbar-expand-md">
+        <section class="container-fluid">
+          <a
+            class="navbar-brand d-flex align-items-center justify-content-center"
+            href="./index.html"
+          >
+            <img
+              class="img-fluid"
+              src="./img/navbar/navbar_logo.png"
+              alt="image of a pokeball"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-lg-0 d-flex align-items-center mb-md-5"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link text-light active-link"
+                  aria-current="page"
+                  href="./index.html"
+                  >Pokédex</a
+                >
+              </li>
+              <li>
+                <a class="nav-link text-light" href="./pages/error404.html"
+                  >TCG</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="./pages/error404.html"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Apps
                 </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-lg-0 d-flex align-items-center mb-md-5">
-                  <li class="nav-item">
-                    <a class="nav-link text-light active-link" aria-current="page" href="./index.html">Pokédex</a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="./pages/error404.html"
+                      >Pokémon Go</a
+                    >
                   </li>
-                    <a class="nav-link text-light" href="./pages/error404.html">TCG</a>
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="./pages/error404.html"
+                      >TV Pokémon</a
+                    >
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-light" href="./pages/error404.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Apps
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item text-dark" href="./pages/error404.html">Pokémon Go</a></li>
-                      <li><a class="dropdown-item text-dark" href="./pages/error404.html">TV Pokémon</a></li>
-                      <li><a class="dropdown-item text-dark" href="./pages/error404.html">Pokémon Quest</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-light" href="./pages/about.html">About</a>
+                  <li>
+                    <a
+                      class="dropdown-item text-dark"
+                      href="./pages/error404.html"
+                      >Pokémon Quest</a
+                    >
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-light" type="submit"><i class='bx bx-search-alt-2'></i></button>
-                </form>
-              </div>
-            </div>
-          </nav>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="./pages/about.html"
+                  >About</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                <i class="bx bx-search-alt-2"></i>
+              </button>
+            </form>
+          </div>
+        </section>
+      </nav>
     </header>
     <main>
       <section id="mainCarousel" class="carousel slide">
         <article class="carousel-inner">
           <aside class="carousel-item active">
-            <img src="./img/carousel/slide1.png" class="carousel-img d-block w-100" alt="image of some pokémons">
+            <img
+              src="./img/carousel/slide1.png"
+              class="carousel-img d-block w-100"
+              alt="image of some pokémons"
+            />
           </aside>
           <aside class="carousel-item">
-            <img src="./img/carousel/slide2.png" class="carousel-img d-block w-100" alt="image of some pokémons">
+            <img
+              src="./img/carousel/slide2.png"
+              class="carousel-img d-block w-100"
+              alt="image of some pokémons"
+            />
           </aside>
           <aside class="carousel-item">
-            <img src="./img/carousel/slide3.png" class="carousel-img d-block w-100" alt="image of some pokémons">
+            <img
+              src="./img/carousel/slide3.png"
+              class="carousel-img d-block w-100"
+              alt="image of some pokémons"
+            />
           </aside>
         </article>
-        <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#mainCarousel"
+          data-bs-slide="prev"
+        >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#mainCarousel"
+          data-bs-slide="next"
+        >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </section>
       <section class="pokedex">
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img" src="./img/pokedex_grid/0001.png" alt="image of Balbasaur">
-            <h2 class="pokedex__name"><i class='bx bxs-leaf' ></i>Bulbasaur</h2>
-            <p class="pokedex__brief">It bears the seed of a plant on its back from birth. The seed slowly develops.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img"
+              src="./img/pokedex_grid/0001.png"
+              alt="image of Balbasaur"
+            />
+            <h2 class="pokedex__name"><i class="bx bxs-leaf"></i>Bulbasaur</h2>
+            <p class="pokedex__brief">
+              It bears the seed of a plant on its back from birth. The seed
+              slowly develops.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--grass" href="./pages/pokemon1.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--grass"
+            href="./pages/pokemon1.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-grass d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--grass">Grass</span>
-              <span class="badge pokedex__badge pokedex__badge--poison">Poison</span>
+              <span class="badge pokedex__badge pokedex__badge--grass"
+                >Grass</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--poison"
+                >Poison</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--flying">Flying</span>
-              <span class="badge pokedex__badge pokedex__badge--fire">Fire</span>
+              <span class="badge pokedex__badge pokedex__badge--flying"
+                >Flying</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--fire"
+                >Fire</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0001</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0001</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-3" src="./img/pokedex_grid/0002.png" alt="image of Ivysaur">
-            <h2 class="pokedex__name"><i class='bx bxs-leaf'></i>Ivysaur</h2>
-            <p class="pokedex__brief">The weight of the plant prevents Ivysaur from running fast.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-3"
+              src="./img/pokedex_grid/0002.png"
+              alt="image of Ivysaur"
+            />
+            <h2 class="pokedex__name"><i class="bx bxs-leaf"></i>Ivysaur</h2>
+            <p class="pokedex__brief">
+              The weight of the plant prevents Ivysaur from running fast.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--grass" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--grass"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-grass d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--grass">Grass</span>
-              <span class="badge pokedex__badge pokedex__badge--poison">Poison</span>
+              <span class="badge pokedex__badge pokedex__badge--grass"
+                >Grass</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--poison"
+                >Poison</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--flying">Flying</span>
-              <span class="badge pokedex__badge pokedex__badge--fire">Fire</span>
+              <span class="badge pokedex__badge pokedex__badge--flying"
+                >Flying</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--fire"
+                >Fire</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0002</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0002</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-1" src="./img/pokedex_grid/0003.png" alt="image of Ivysaur">
-            <h2 class="pokedex__name"><i class='bx bxs-leaf'></i>Venusaur</h2>
-            <p class="pokedex__brief">The flower is supported by a thick, brown trunk surrounded by green fronds.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-1"
+              src="./img/pokedex_grid/0003.png"
+              alt="image of Ivysaur"
+            />
+            <h2 class="pokedex__name"><i class="bx bxs-leaf"></i>Venusaur</h2>
+            <p class="pokedex__brief">
+              The flower is supported by a thick, brown trunk surrounded by
+              green fronds.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--grass" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--grass"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-grass d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--grass">Grass</span>
-              <span class="badge pokedex__badge pokedex__badge--poison">Poison</span>
+              <span class="badge pokedex__badge pokedex__badge--grass"
+                >Grass</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--poison"
+                >Poison</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--flying">Flying</span>
-              <span class="badge pokedex__badge pokedex__badge--fire">Fire</span>
+              <span class="badge pokedex__badge pokedex__badge--flying"
+                >Flying</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--fire"
+                >Fire</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0003</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0003</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-3" src="./img/pokedex_grid/0004.png" alt="image of Charmander">
-            <h2 class="pokedex__name"><i class='bx bxs-hot'></i>Charmander</h2>
-            <p class="pokedex__brief">The flame can be used as an indication of Charmander's health and mood.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-3"
+              src="./img/pokedex_grid/0004.png"
+              alt="image of Charmander"
+            />
+            <h2 class="pokedex__name"><i class="bx bxs-hot"></i>Charmander</h2>
+            <p class="pokedex__brief">
+              The flame can be used as an indication of Charmander's health and
+              mood.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--fire" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--fire"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-fire d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--fire">Fire</span>
+              <span class="badge pokedex__badge pokedex__badge--fire"
+                >Fire</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--water">Water</span>
-              <span class="badge pokedex__badge pokedex__badge--rock">Rock</span>
+              <span class="badge pokedex__badge pokedex__badge--water"
+                >Water</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--rock"
+                >Rock</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0004</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0004</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-3" src="./img/pokedex_grid/0005.png" alt="image of Charmeleon">
-            <h2 class="pokedex__name"><i class='bx bxs-hot'></i>Charmeleon</h2>
-            <p class="pokedex__brief">The flame can be used as an indication of Charmander's health and mood.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-3"
+              src="./img/pokedex_grid/0005.png"
+              alt="image of Charmeleon"
+            />
+            <h2 class="pokedex__name"><i class="bx bxs-hot"></i>Charmeleon</h2>
+            <p class="pokedex__brief">
+              The flame can be used as an indication of Charmander's health and
+              mood.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--fire" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--fire"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-fire d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--fire">Fire</span>
+              <span class="badge pokedex__badge pokedex__badge--fire"
+                >Fire</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--water">Water</span>
-              <span class="badge pokedex__badge pokedex__badge--rock">Rock</span>
+              <span class="badge pokedex__badge pokedex__badge--water"
+                >Water</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--rock"
+                >Rock</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0005</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0005</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img" src="./img/pokedex_grid/0006.png" alt="image of Charizard">
-            <h2 class="pokedex__name"><i class='bx bxs-hot'></i>Charizard</h2>
-            <p class="pokedex__brief">Its fiery breath is capable of melting boulders and massive glaciers.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img"
+              src="./img/pokedex_grid/0006.png"
+              alt="image of Charizard"
+            />
+            <h2 class="pokedex__name"><i class="bx bxs-hot"></i>Charizard</h2>
+            <p class="pokedex__brief">
+              Its fiery breath is capable of melting boulders and massive
+              glaciers.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--fire" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--fire"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-fire d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--fire">Fire</span>
-              <span class="badge pokedex__badge pokedex__badge--flying">Flying</span>
+              <span class="badge pokedex__badge pokedex__badge--fire"
+                >Fire</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--flying"
+                >Flying</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--water">Water</span>
-              <span class="badge pokedex__badge pokedex__badge--rock">Rock</span>
+              <span class="badge pokedex__badge pokedex__badge--water"
+                >Water</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--rock"
+                >Rock</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0006</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0006</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-3" src="./img/pokedex_grid/0007.png" alt="image of Squirtle">
-            <h2 class="pokedex__name"><i class='bx bxs-droplet' ></i>Squirtle</h2>
-            <p class="pokedex__brief">It´s shell can withdraw into the shell for protection or to sleep.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-3"
+              src="./img/pokedex_grid/0007.png"
+              alt="image of Squirtle"
+            />
+            <h2 class="pokedex__name">
+              <i class="bx bxs-droplet"></i>Squirtle
+            </h2>
+            <p class="pokedex__brief">
+              It´s shell can withdraw into the shell for protection or to sleep.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--water" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--water"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-water d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--water">Water</span>
+              <span class="badge pokedex__badge pokedex__badge--water"
+                >Water</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--grass">Grass</span>
-              <span class="badge pokedex__badge pokedex__badge--electric">Electric</span>
+              <span class="badge pokedex__badge pokedex__badge--grass"
+                >Grass</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--electric"
+                >Electric</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0007</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0007</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-3" src="./img/pokedex_grid/0008.png" alt="image of Wartortle">
-            <h2 class="pokedex__name"><i class='bx bxs-droplet' ></i>Wartortle</h2>
-            <p class="pokedex__brief">Air can be stored in its fur for extended underwater diving.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-3"
+              src="./img/pokedex_grid/0008.png"
+              alt="image of Wartortle"
+            />
+            <h2 class="pokedex__name">
+              <i class="bx bxs-droplet"></i>Wartortle
+            </h2>
+            <p class="pokedex__brief">
+              Air can be stored in its fur for extended underwater diving.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--water" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--water"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-water d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--water">Water</span>
+              <span class="badge pokedex__badge pokedex__badge--water"
+                >Water</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--grass">Grass</span>
-              <span class="badge pokedex__badge pokedex__badge--electric">Electric</span>
+              <span class="badge pokedex__badge pokedex__badge--grass"
+                >Grass</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--electric"
+                >Electric</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0008</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0008</h3>
+            </aside>
           </div>
         </article>
         <article class="pokedex__card">
-          <div class="pokedex__card--info d-flex flex-column justify-content-start align-items-center">
-            <img class="img-fluid pokedex__img p-3" src="./img/pokedex_grid/0009.png" alt="image of Blastoise">
-            <h2 class="pokedex__name"><i class='bx bxs-droplet' ></i>Blastoise</h2>
-            <p class="pokedex__brief">Two powerful water cannons reside at the top of its shell over its shoulders.</p>
+          <div
+            class="pokedex__card--info d-flex flex-column justify-content-start align-items-center"
+          >
+            <img
+              class="img-fluid pokedex__img p-3"
+              src="./img/pokedex_grid/0009.png"
+              alt="image of Blastoise"
+            />
+            <h2 class="pokedex__name">
+              <i class="bx bxs-droplet"></i>Blastoise
+            </h2>
+            <p class="pokedex__brief">
+              Two powerful water cannons reside at the top of its shell over its
+              shoulders.
+            </p>
           </div>
-          <a class="pokedex__further pokedex__further--water" href="./pages/error404.html">See more</a>
+          <a
+            class="pokedex__further pokedex__further--water"
+            href="./pages/error404.html"
+            >See more</a
+          >
           <div class="pokedex__card--sumup-water d-flex">
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Type:</h3>
-              <span class="badge pokedex__badge pokedex__badge--water">Water</span>
+              <span class="badge pokedex__badge pokedex__badge--water"
+                >Water</span
+              >
             </aside>
             <aside class="pokedex__fact w-50">
               <h3 class="pokedex__key">Weak to:</h3>
-              <span class="badge pokedex__badge pokedex__badge--grass">Grass</span>
-              <span class="badge pokedex__badge pokedex__badge--electric">Electric</span>
+              <span class="badge pokedex__badge pokedex__badge--grass"
+                >Grass</span
+              >
+              <span class="badge pokedex__badge pokedex__badge--electric"
+                >Electric</span
+              >
             </aside>
-            <aside class="pokedex__fact"><h3 class="pokedex__number">0009</h3></aside>
+            <aside class="pokedex__fact">
+              <h3 class="pokedex__number">0009</h3>
+            </aside>
           </div>
         </article>
       </section>
     </main>
     <footer class="footer mt-5">
       <section class="footer__container">
-        <span class="footer__legend text-light">&copy; All rights reserved</span>
+        <span class="footer__legend text-light"
+          >&copy; All rights reserved</span
+        >
       </section>
     </footer>
     <script
