@@ -102,22 +102,48 @@ main {
 .pokedex {
     display: grid;
     padding: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    row-gap: 35px;
+    column-gap: 20px;
 }
 
 .pokedex__card {
     border-radius: 7px;
-    box-shadow: 0 1.5rem 4.5rem #000;
+    box-shadow: 0 1.2rem 4rem #000;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
+
+.pokedex__card--info {
+    flex-grow: 1;
+}
+
+.pokedex__img {
+    height: 50%;
+}
+
+.pokedex__name {
+    font-size: var(--md-size);
+}
+
 
 .pokedex__brief {
     padding: 10px;
+    text-align: center;
+    font-size: var(--sm-size);
 }
 
-.pokedex__card--sumup {
-    background-image: linear-gradient(to right, #78C850, transparent);
+.pokedex__card--sumup-grass {
+    background-image: linear-gradient(to right, #78c850, transparent);
+}
+
+.pokedex__card--sumup-fire {
+    background-image: linear-gradient(to right,#f05030, transparent);
+}
+
+.pokedex__card--sumup-water {
+    background-image: linear-gradient(to right,	#3899F8, transparent);
 }
 
 .pokedex__fact {
@@ -125,7 +151,7 @@ main {
 }
 
 .pokedex__key {
-    font-size: var(--sm-size) ;
+    font-size: var(--xs-size) ;
 }
 
 .pokedex__number {
@@ -154,4 +180,21 @@ main {
 
 .pokedex__badge--fire {
     background-color: #f05030;
+}
+
+.pokedex__badge--water {
+    background-color:#3899f8;
+}
+
+.pokedex__badge--ground {
+    background-color: #e9d6a4;
+    background-color: 	#B8A058;
+}
+
+.pokedex__badge--rock {
+    background-color: 	#b8a058;
+}
+
+.pokedex__badge--electric {
+    background-color: 	#f8d030;
 }
