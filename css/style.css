@@ -223,3 +223,16 @@ main {
 .pokedex__further--water {
     background-color:#3899F8;
 }
+
+/* Error404 */
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error__img {
+    object-fit: cover;
+}
