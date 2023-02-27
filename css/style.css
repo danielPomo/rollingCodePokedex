@@ -2,13 +2,13 @@
     /* Bold */
     --navbar-weight: 900;
     --footer-weight: 600;
+    --title-weight: 500;
     /* Size */
     --xs-size: 10px;
     --sm-size: 16px;
     --md-size: 20px;
     --lg-size: 24px;
     --xl-size: 30px;
-
 }
 
 html {
@@ -32,6 +32,10 @@ body {
 
 main {
     flex-grow: 1;
+}
+
+h2 {
+    font-weight: var(--title-weight);
 }
 
 .navbar-brand {
@@ -235,4 +239,13 @@ main {
 
 .error__img {
     object-fit: cover;
+}
+
+/* Pokemon1 details */
+.pokemon1__img {
+    max-width: 200px;
+}
+
+.pokemon1__evolution {
+    border-radius: 20%;
 }
